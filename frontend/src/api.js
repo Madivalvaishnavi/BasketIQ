@@ -1,4 +1,4 @@
-const API = "https://basket-backend-abc123.onrender.com/api";
+const API = "https://basket-backend-xxxx.onrender.com/api";
 
 async function request(path, options = {}) {
   const response = await fetch(`${API}${path}`, options);
